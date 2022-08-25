@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightgrey;
+}
+form {
+    height: 300px; width: 400px;
+    background-color: white;
+    margin: 2% auto;
+    padding: 10px;
+    border: 5px solid blue;
+    box-shadow: 5px 5px 5px rgb(2, 2, 186);
+    border-radius: 15px;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+form h2 {
+    margin-bottom: 10px;
+    border-bottom: 3px solid blue;
+    
+}
+form button {
+    font-size: 14px;
+    padding: 3px;
+    min-width: 125px;
+    margin: 2px;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 5px;
+}
+#timer, #promptDisplay {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+#start {
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    width: 75px;
+    text-align: center;
+    display: block;
+    margin: auto;
+
+}
+.hide {
+    opacity: 0;
+}
+
+/*everything below is for highscore HTML except #viewscore*/
+#scoreboard {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+}
+#backhome, #viewscore {
+    cursor: pointer;
+    background-color: blue;
+    border-bottom-right-radius: 15px;
+    border-color: blue;
+    color: white;
+    font-size: 16px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#backhome {
+    position: absolute;
+    top: 0;
+}
+#scorename {
+    display: inline;
+    width: 15%;
+    margin-left: 250px;
+    font-size: 25px;
+}
+#scorevalue {
+    display: inline;
+    margin-left: 250px;
+    font-size: 25px;
+}
+#end {
+    position: relative;
+    margin-left: 20px;
+    font-size: 120px;
+}
+
